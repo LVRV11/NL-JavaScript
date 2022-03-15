@@ -1,0 +1,20 @@
+.first {
+    text-align: center;
+    width: 1600px;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background: rgb(0, 139, 253);
+    color: rgb(0, 0, 0);
+}
+
+.second {
+    text-align: center;
+    width: 1600px;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 200px 12px;
+    background: rgb(249, 253, 0);
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+};
