@@ -14,25 +14,25 @@ alert (admin);
 // let user = 'ivan';
 // let newUser = ??? // 'Ivan';
 
-let user = "ivan";
-let upString = user.toUpperCase ();
+let userTask = "ivan";
+let upString = userTask.toUpperCase ();
 let firstLetterUser = upString [0];
-let partUser = user.slice (1);
+let partUser = userTask.slice (1);
 let newUser = firstLetterUser + partUser;
 console.log (newUser);
 
 // возможно можно так
 
-let user = "ivan";
-let newUser = user[0].toUpperCase() + user.slice (1);
-console.log (newUser);
+let userAnother = "ivan";
+let newUserAnother = userAnother[0].toUpperCase() + userAnother.slice (1);
+console.log (newUserAnother);
 
 
 // Задача 3: Тип данных String имеет и другие встроенные методы, используя 
 // поиск в гугл найдите их и приведите примеры их использования
 
 
-// let string = "I love basketball";
+let string = "I love basketball";
 console.log (string.indexOf("love"));
 console.log (string.indexOf("v"));
 console.log (string.indexOf("j"));
